@@ -1,3 +1,8 @@
+//! Iterator utility for consuming an iterator fully.
+//!
+//! To use, either `use consume_iterator::consume` to get the function,
+//! or `use consume_iterator::ConsumeIterator` to get the convenience trait.
+
 /// Consume an iterator.
 ///
 /// This function takes any implementation of [`IntoIterator`],

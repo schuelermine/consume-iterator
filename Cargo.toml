@@ -1,0 +1,10 @@
+[package]
+name = "consume-iterator"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+description = "Consume any iterator fully"
+repository = "https://github.com/schuelermine/consume-iterator"
+keywords = ["no-std", "iterator"]
+categories = ["no-std", "no-std::no-alloc", "rust-patterns"]

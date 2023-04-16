@@ -1,3 +1,4 @@
+#![no_std]
 //! Iterator utility for consuming an iterator fully.
 //!
 //! To use, either `use consume_iterator::consume` to get the function,

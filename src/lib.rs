@@ -19,6 +19,7 @@
 /// consume(&mut range);
 /// assert!(range.is_empty());
 /// ```
+#[inline]
 pub fn consume(iter: impl IntoIterator) {
     for _ in iter {}
 }
@@ -38,6 +39,7 @@ pub trait ConsumeIterator: Iterator {
     /// range.by_ref().consume();
     /// assert!(range.is_empty());
     /// ```
+    #[inline]
     fn consume(self)
     where
         Self: Sized,
